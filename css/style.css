@@ -1,0 +1,45 @@
+
+body{
+    background: url(../imagenes/fondo3.jpg);
+    background-size: 100%;
+    text-align: center;
+    background-color: #000000;
+    font-family: cursive;
+    
+    /* el éso de la tipografia debe ser de 300 a 700 */
+    /* fonde de color #2396bd */
+}    
+/* este elemento se conoce como selector (button) */
+button{
+    /* el corchete es el limite */
+    /* pudding es una propiedad y despues del punto esta el valor de la propiedad */
+    padding: 8px 20px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #3b94fa;
+    color: #000000;
+    border-radius: 15px;
+    border: 3px solid #000000;
+    /* el efecto hover para que cambie la forma del cursor */
+    cursor: pointer;
+    /* pointer para la manito, move para el efecto de movimiento */
+    transition: 0.5;
+
+}
+button:hover{
+    background: #ffffff;
+    color: #0084ff;
+    font-weight: 100;
+    padding: 15px 50px;
+    font-family: fantasy;
+    border-radius: 30px;
+
+}
+h1{
+    color: #000000;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 700;
+}
